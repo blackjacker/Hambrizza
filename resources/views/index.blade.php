@@ -347,8 +347,7 @@
     </div>
 </section>
    
-<!------------------- ABOUT 
---------------------------------------------------------->
+
 <section class="mbr-info mbr-info-extra mbr-section mbr-section-md-padding" id="msg-box1-f" style="background-color: rgb(242, 242, 242); padding-top: 90px; padding-bottom: 90px;">
 
     
@@ -377,8 +376,6 @@
     </div>
 </section>
 
-<!------------------- CUSTOMERS 
---------------------------------------------------------->
 <section class="mbr-section" id="testimonials1-g" style="background-color: rgb(255, 255, 255); padding-top: 120px; padding-bottom: 120px;">
 
     
@@ -439,8 +436,7 @@
 
 </section>
 
-<!------------------- CONTACT 
----------------------------------------------------------> 
+
 <section class="mbr-section" id="form1-h" style="background-color: rgb(255, 255, 255); padding-top: 120px; padding-bottom: 120px;">
     
     <div class="mbr-section mbr-section__container mbr-section__container--middle">
@@ -507,8 +503,7 @@
     </div>
 </section>
 
-<!------------------- FOOTER 
---------------------------------------------------------->
+
 <section class="mbr-section mbr-section-md-padding" id="social-buttons4-6" style="background-color: rgb(46, 46, 46); padding-top: 90px; padding-bottom: 90px;">
     
     <div class="container">
@@ -532,8 +527,7 @@
 <input name="animation" type="hidden">
    <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon"></i></a></div>
 
-<!------------------- SCRIPTS 
---------------------------------------------------------->      
+     
 <script src="assets/web/assets/jquery/jquery.min.js"></script>
 <script src="assets/tether/tether.min.js"></script>
 <script src="assets/bootstrap/js/bootstrap.min.js"></script>

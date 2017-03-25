@@ -1,10 +1,19 @@
 <?php
 
-/**
- * Laravel - A PHP Framework For Web Artisans
- *
- * @package  Laravel
- * @author   Taylor Otwell <taylor@laravel.com>
+/************************************************************************
+* FILENAME :        HAMBRIZZA | Index             
+*
+* DESCRIPTION :
+*       Redirects to Hambrizza home page. 
+*
+*       © Copyright Hambrizza 2017. All rights reserved.
+* 
+* AUTHOR :    Richard Maya, Benjamín Sánchez        
+* 
+* START DATE :    09 Mar 17     RELEASE DATE :     
+*
+* VERSION : 1.0
+*
  */
 
 /*

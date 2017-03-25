@@ -369,10 +369,10 @@ h6,
   background-color: #f28281;
 }
 .btn-social {
-  border-color: #e7452e;
+  border-color: #FEE441; /* Borde */
 }
 .btn-social:hover {
-  background: #e7452e;
+  background: #FEE441; /* Borde */
 }
 .mbr-company .list-group-item.active .list-group-text {
   color: #e7452e;
@@ -522,4 +522,58 @@ h6,
     color: #EB6A60;
     border: 2px solid #EB6A60 !important;
     border-radius: 10px;
+}
+
+.card-img img{
+    width:100%;
+}
+
+div.order-form{
+    width:90%; 
+    text-align:center; 
+    padding-left:5%;
+}
+
+div.order-form input{
+    width:30%; 
+    margin-left:35%; 
+    color:#EB6A60;
+}
+
+div.order-form table{
+    width: 80%;
+    margin-left: 10%;
+}
+
+h5#final-price{
+    color:#EB6A60;
+    margin-top: 50px;
+}
+
+section#features3-8 form{
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+}
+
+form div.mbr-cards-col{
+    top: 0px !important;
+    padding-top: 0px !important;
+    margin-top: 30px !important;
+}
+
+div.mbr-author-img img{
+    width: 35%;
+    height: auto;
+}
+
+.btn-social{
+    color: #FEE441 !important;
+}
+
+.btn-social:hover{
+    color: #E7452E !important;
+}
+
+img.img-thumbnail{
+    border-color: #E7452E;
 }

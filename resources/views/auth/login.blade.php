@@ -23,6 +23,10 @@
     <style>
         label{ color: #FEEF8F; }
         small{ color: #FEE441 !important;}
+        input:focus{
+            box-shadow: 0 0 10px rgba(235, 106, 96, 0.7);
+            border: 1px solid rgba(235, 106, 96, 1);
+        }
     </style>
 </head>
 @extends('layouts.app')
@@ -125,6 +129,7 @@
            <h3 class="mbr-section-title display-2" style="color:#FEE441;">Hambrizza</h3><br>
            <small class="mbr-section-subtitle">Pizza Artesanal 100% Mexicana.</small>
            
+<!--
             <nav>
                 <a href="#" style="color:#FEE441; text-decoration:underline;">Inicio</a>
                 <a href="#" style="color:#FEE441;">|</a>
@@ -132,6 +137,7 @@
                 <a href="#" style="color:#FEE441;">|</a>
                 <a href="#" style="color:#FEE441; text-decoration:underline;">Aviso de Privacidad</a>
             </nav><br>
+-->
             <p style="color:#FEE441;">© HAMBRIZZA | Todos los derechos reservados 2017.</p>
        </div>
     </div>
@@ -139,14 +145,14 @@
 
 <!------------------- SCRIPTS 
 --------------------------------------------------------->      
-<script src="assets/web/assets/jquery/jquery.min.js"></script>
-<script src="assets/tether/tether.min.js"></script>
-<script src="assets/bootstrap/js/bootstrap.min.js"></script>
-<script src="assets/smooth-scroll/SmoothScroll.js"></script>
-<script src="assets/dropdown/js/script.min.js"></script>
-<script src="assets/touchSwipe/jquery.touchSwipe.min.js"></script>
-<script src="assets/viewportChecker/jquery.viewportchecker.js"></script>
-<script src="assets/theme/js/script.js"></script>
-<script src="assets/formoid/formoid.min.js"></script>
+<script src="{{ asset('assets/web/assets/jquery/jquery.min.js') }}"></script>
+<script src="{{ asset('assets/tether/tether.min.js') }}"></script>
+<script src="{{ asset('assets/bootstrap/js/bootstrap.min.js') }}"></script>
+<script src="{{ asset('assets/smooth-scroll/SmoothScroll.js') }}"></script>
+<script src="{{ asset('assets/dropdown/js/script.min.js') }}"></script>
+<script src="{{ asset('assets/touchSwipe/jquery.touchSwipe.min.js') }}"></script>
+<script src="{{ asset('assets/viewportChecker/jquery.viewportchecker.js') }}"></script>
+<script src="{{ asset('assets/theme/js/script.js') }}"></script>
+<script src="{{ asset('assets/formoid/formoid.min.js') }}"></script>
 
 @endsection

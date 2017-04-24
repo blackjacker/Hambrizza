@@ -21,23 +21,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- SITE TITLE -->
-    <title>Pizza Artesanal Horneada | Toluca, Metepec, Guadalajara | HAMBRIZZA</title>
+    <title>HAMBRIZZA | Pizza Artesanal 100% Mexicana</title>
         
     <!-- FAVICONS -->
-    <link rel="shortcut icon" href="{{ asset('favicons/favicon.ico') }}" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="{{ asset('favicons/apple-touch-icon.png') }}" />
-    <link rel="apple-touch-icon" sizes="57x57" href="{{ asset('favicons/apple-touch-icon-57x57.png') }}" />
-    <link rel="apple-touch-icon" sizes="72x72" href="{{ asset('favicons/apple-touch-icon-72x72.png') }}" />
-    <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('favicons/apple-touch-icon-76x76.png') }}" />
-    <link rel="apple-touch-icon" sizes="114x114" href="{{ asset('favicons/apple-touch-icon-114x114.png') }}" />
-    <link rel="apple-touch-icon" sizes="120x120" href="{{ asset('favicons/apple-touch-icon-120x120.png') }}" />
-    <link rel="apple-touch-icon" sizes="144x144" href="{{ asset('favicons/apple-touch-icon-144x144.png') }}" />
-    <link rel="apple-touch-icon" sizes="152x152" href="{{ asset('favicons/apple-touch-icon-152x152.png') }}" />
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('favicons/apple-touch-icon-180x180.png') }}" />
         
     <!-- SEO INFO -->
-    <meta name="description" content="Hambrizza es una empresa productora de pizzas artesanales 100% mexicana, decicada a proveer y distribuir a cualquier negocio en Toluca, Metepec y Guadalajara. Pizza artesanal, Pizza individual, Pizza congelada, Pizza Horenada, Pizza Casera. Rescatando las bases de la panadería tradicional mexicana, logramos obtener un alimento con un sabor inigualable.">
-    <meta name="keywords" content="hambrizza, pizza artesanal, pizza individual, pizza congelada, pizza horneada, pizza casera, pizza pepperoni horneada, pizza hawaiana horneada, pizza cuatro estaciones horneada, pizza metepec, pizza toluca, hamburguesas metepec, hamburguesas toluca, rica comida rápida, comida precalentada, naucalpan, coacalco, ecatepec, guadalajara, jalisco, ciudad">
+    <meta name="description" content="Hambrizza es una empresa productora de pizzas artesanalas 100% mexicana, decicada a proveer y distribuir a cualquier negocio. Rescatando las bases de la panadería tradicional mexicana, logramos obtener un alimento con un sabor inigualable.">
+    <meta name="keywords" content="hambrizza, pizza artesanal, pizza metepec, pizza toluca, hamburguesas metepec, hamburguesas toluca, mexico, méxico, guadalajara, jalisco, ciudad, pizza">
     <meta name="author" content="Richard Maya, Benjamín Sánchez">
         
     <!-- STYLESHEETS -->
@@ -79,7 +69,7 @@
                 <div class="mbr-table-cell">
 
                     <div class="navbar-brand">
-                        <a href="{{ url('/') }}" title="hambrizza-pizza-artesanal-toluca-metepec-guadalajara" class="navbar-logo"><img src="assets/images/hambrizza-logo.png" alt="hambrizza-logo-pizza-artesanal"></a>
+                        <a href="{{ url('/') }}" class="navbar-logo"><img src="assets/images/hambrizza-logo.png" alt="hambrizza-logo"></a>
                     </div>
 
                 </div>
@@ -90,15 +80,15 @@
                     </button>
                     
                     @if (Auth::check())
-                        <a href="{{ url('/home') }}" title="hambrizza-pizza-artesanal-toluca-metepec-guadalajara">Home</a>
+                        <a href="{{ url('/home') }}">Home</a>
                     @else
 
                     <ul class="nav-dropdown collapse pull-xs-right nav navbar-nav navbar-toggleable-sm" id="exCollapsingNavbar">
                         <li class="nav-item nav-btn">
-                            <a class="nav-link btn btn-secondary btn-white-outline" href="{{ url('/register') }}" title="hambrizza-crear-cuenta">Crear Cuenta</a>
+                            <a class="nav-link btn btn-secondary btn-white-outline" href="{{ url('/register') }}">Crear Cuenta</a>
                         </li>
                         <li class="nav-item nav-btn">
-                            <a class="nav-link btn btn-secondary btn-white-outline" href="{{ url('/login') }}" title="hambrizza-iniciar-sesión">Iniciar Sesión</a>
+                            <a class="nav-link btn btn-secondary btn-white-outline" href="{{ url('/login') }}">Iniciar Sesión</a>
                         </li>
                     </ul>
                     
@@ -147,7 +137,6 @@
         <div class="row">
             <div class="col-xs-12">
                 <h3 class="mbr-section-title display-2" style="margin-top:50px;">Nuestros Productos</h3>
-                <small class="mbr-section-subtitle" style="font-family:Open Sans;">Conoce nuestra variedad de pizzas horneadas.</small>
             </div>
         </div>
         <!--<div class="row">
@@ -179,7 +168,7 @@
               <div class="card cart-block">
                  
                   <div class="card-img">
-                      <img src="assets/images/pizza-hawaiana.png" class="hambrizza-pizza-hawaiana" alt="hambrizza-pizza-hawaiana">
+                      <img src="assets/images/pizza-hawaiana.png" class="hambrizza-pizza-hawaiana">
                   </div>
                   
                   <div class="card-block">
@@ -209,7 +198,7 @@
                 <div class="card cart-block">
                    
                     <div class="card-img">
-                        <img src="assets/images/pizza-pepperoni.png" class="hambrizza-pizza-pepperoni" alt="hambrizza-pizza-pepperoni">
+                        <img src="assets/images/pizza-pepperoni.png" class="hambrizza-pizza-pepperoni">
                     </div>
                     
                     <div class="card-block">
@@ -239,7 +228,7 @@
                 <div class="card cart-block">
                    
                     <div class="card-img">
-                        <img src="assets/images/pizza-cuatro-estaciones.png" class="hambrizza-pizza-cuatro-estaciones" alt="hambrizza-pizza-cuatro-estaciones">
+                        <img src="assets/images/pizza-cuatro-estaciones.png" class="hambrizza-pizza-cuatro-estaciones">
                     </div>
                     
                     <div class="card-block">
@@ -269,7 +258,7 @@
                 <div class="card cart-block">
                    
                     <div class="card-img">
-                        <img src="assets/images/pizza-a-la-carta.png" class="hambrizza-pizza-a-la-carta" alt="hambrizza-pizza-a-la-carta">
+                        <img src="assets/images/pizza-a-la-carta.png" class="hambrizza-pizza-a-la-carta">
                     </div>
                     
                     <div class="card-block">
@@ -349,7 +338,7 @@
                   
                    <h3 class="mbr-info-title mbr-section-title display-2">Acerca</h3>
                    
-                   <p style="color: #EB6A60;">Somos una empresa productora de <a target="_blank" href="https://www.facebook.com/HAMBRIZZA/" title="Hambrizza-pizzas-horneadas-metepec-toluca-guadalajara-facebook">pizzas artesanales</a> 100% mexicana, dedicada a proveer y distribuir a cualquier negocio interesado en brindar alimentos de calidad a sus clientes.</p>
+                   <p style="color: #EB6A60;">Somos una empresa productora de pizzas artesanales 100% mexicana, dedicada a proveer y distribuir a cualquier negocio interesado en brindar alimentos de calidad a sus clientes</p>
                    <p style="color: #EB6A60;">Utilizamos únicamente productos frescos y sin conservadores.</p>
                    <p style="color: #EB6A60;">Rescatando las bases de la panadería tradicional mexicana, logramos obtener un alimento con un sabor inigualable.</p>
                    
@@ -359,7 +348,7 @@
 
                 <div class="mbr-table-cell col-lg-4">
                     <div class="text-xs-center">
-                        <img alt="" src="assets/images/pizza-pepperoni.png" style="width:100%;" alt="hambrizza-pizza-hawaiana-horneada">
+                        <img alt="" src="assets/images/pizza-pepperoni.png" style="width:100%;">
                     </div>
                 </div>
             </div>
@@ -525,21 +514,16 @@
             <div class="col-md-8 col-md-offset-2 text-xs-center">
                 <h3 class="mbr-section-title display-2" style="color:#FEE441;">Síguenos</h3>
                 <div>
-                    <a class="btn btn-social" title="hambrizza-pizza-artesanal-facebook" target="_blank" href="https://www.facebook.com/HAMBRIZZA/">
-                        <i class="socicon socicon-facebook"></i>
-                    </a> 
+                    <a class="btn btn-social" title="Facebook" target="_blank" href="https://www.facebook.com/HAMBRIZZA/">
+                        <i class="socicon socicon-facebook"></i></a> 
 <!--
                     <a class="btn btn-social" title="Twitter" target="_blank" href="https://twitter.com/">
                         <i class="socicon socicon-twitter"></i></a> 
                     <a class="btn btn-social" title="Google+" target="_blank" href="https://plus.google.com/">
                         <i class="socicon socicon-googleplus"></i></a> 
 -->
-                    <a class="btn btn-social" title="hambrizza-pizza-artesanal-youtube" target="_blank" href="https://www.youtube.com/channel/UChmOkM01BR31cAiThnbJ3Ag">
+                    <a class="btn btn-social" title="YouTube" target="_blank" href="https://www.youtube.com/channel/UChmOkM01BR31cAiThnbJ3Ag">
                         <i class="socicon socicon-youtube"></i>
-                    </a> 
-                    
-                    <a class="btn btn-social" title="hambrizza-pizza-artesanal-correo" href="mailto:hambrizza@gmail.com">
-                        <i class="socicon socicon-mail"></i>
                     </a> 
                 </div>
             </div>
@@ -567,7 +551,7 @@
 
 <!-- BACK TO TOP -->
 <input name="animation" type="hidden">
-   <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;" title="hambrizza-pizza-artesanal-mexicana"><i class="mbr-arrow-up-icon"></i></a></div>
+   <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon"></i></a></div>
 
 <!------------------- SCRIPTS 
 --------------------------------------------------------->      

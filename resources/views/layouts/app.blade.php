@@ -24,21 +24,31 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     
     <!-- FAVICONS -->
+    <link rel="shortcut icon" href="{{ asset('favicons/favicon.ico') }}" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="{{ asset('favicons/apple-touch-icon.png') }}" />
+    <link rel="apple-touch-icon" sizes="57x57" href="{{ asset('favicons/apple-touch-icon-57x57.png') }}" />
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ asset('favicons/apple-touch-icon-72x72.png') }}" />
+    <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('favicons/apple-touch-icon-76x76.png') }}" />
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ asset('favicons/apple-touch-icon-114x114.png') }}" />
+    <link rel="apple-touch-icon" sizes="120x120" href="{{ asset('favicons/apple-touch-icon-120x120.png') }}" />
+    <link rel="apple-touch-icon" sizes="144x144" href="{{ asset('favicons/apple-touch-icon-144x144.png') }}" />
+    <link rel="apple-touch-icon" sizes="152x152" href="{{ asset('favicons/apple-touch-icon-152x152.png') }}" />
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('favicons/apple-touch-icon-180x180.png') }}" />
     
     <!-- SEO INFO -->
     <meta name="keywords" content="hambrizza, pizza artesanal, pizza metepec, pizza toluca, hamburguesas metepec, hamburguesas toluca, mexico, méxico, guadalajara, jalisco, ciudad, pizza">
     <meta name="author" content="Richard Maya, Benjamín Sánchez">
     
     <!-- STYLESHEETS -->
-    <link rel="stylesheet" href="assets/bootstrap-material-design-font/css/material.css">
-    <link rel="stylesheet" href="assets/tether/tether.min.css">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/dropdown/css/style.css">
-    <link rel="stylesheet" href="assets/animate.css/animate.min.css">
-    <link rel="stylesheet" href="assets/socicon/css/styles.css">
+    <link rel="stylesheet" href="{{ asset('assets/bootstrap-material-design-font/css/material.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('assets/tether/tether.min.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('assets/bootstrap/css/bootstrap.min.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('assets/dropdown/css/style.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('assets/animate.css/animate.min.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('assets/socicon/css/styles.css') }}" type="text/css">
 <!--    <link href="{{ asset('css/app.css') }}" rel="stylesheet">-->
-    <link rel="stylesheet" href="assets/theme/css/style.css">
-    <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+    <link rel="stylesheet" href="{{ asset('assets/theme/css/style.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('assets/mobirise/css/mbr-additional.css') }}" type="text/css">
     
     <!-- FONTS -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&amp;subset=latin">
@@ -66,7 +76,7 @@
                 <div class="mbr-table-cell">
 
                     <div class="navbar-brand">
-                        <a href="#" class="navbar-logo"><img src="assets/images/hambrizza-logo.png" alt="hambrizza-logo"></a>
+                        <a href="{{ url('/') }}" class="navbar-logo"><img src="{{ url('assets/images/hambrizza-logo.png') }}" alt="hambrizza-logo"></a>
                     </div>
 
                 </div>

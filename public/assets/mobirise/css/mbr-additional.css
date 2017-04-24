@@ -536,7 +536,7 @@ div.order-form{
 
 div.order-form input{
     width:30%; 
-    margin-left:35%; 
+    margin-left:25%; 
     color:#EB6A60;
 }
 
@@ -576,4 +576,12 @@ div.mbr-author-img img{
 
 img.img-thumbnail{
     border-color: #E7452E;
+}
+
+iframe{
+    padding: 0px;
+    border: 10px;
+    border-style: inset;
+    border-color: #EB6A60;
+    border-radius: 20px;
 }

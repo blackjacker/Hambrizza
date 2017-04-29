@@ -127,7 +127,7 @@
 
 <!------------------- FOOTER 
 --------------------------------------------------------->
-<footer class="mbr-small-footer mbr-section mbr-section-nopadding" id="footer1-i" style="background-color: #E7452E; padding-top: 1.75rem; padding-bottom: 1.75rem;">
+<footer class="mbr-small-footer mbr-section mbr-section-nopadding" id="footer1-i" style="background-color: #E7452E; padding-top: 1.75rem; padding-bottom:0px;">
     
     <div class="container">
        <div class="text-xs-center">
@@ -144,7 +144,9 @@
                 <a href="#" style="color:#FEE441; text-decoration:underline;">Aviso de Privacidad</a>
             </nav><br>
 -->
-            <p style="color:#FEE441;">© HAMBRIZZA | Todos los derechos reservados 2017.</p>
+            <p style="color:#FEE441;">© HAMBRIZZA | Todos los derechos reservados 2017.</p> <br>
+            
+            <img alt="" class="img-responsive" src="{{ asset('assets/images/hambrizza-footer.png') }}" style="width: 20%;">
        </div>
     </div>
 </footer>

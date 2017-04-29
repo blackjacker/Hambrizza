@@ -150,11 +150,6 @@
                 <small class="mbr-section-subtitle" style="font-family:Open Sans;">Conoce nuestra variedad de pizzas horneadas.</small>
             </div>
         </div>
-        <!--<div class="row">
-            <div class="col-xs-12">
-                <small class="mbr-section-subtitle" style="margin-top:50px;">Compra total: $180.00</small>
-            </div>    cart-add
-        </div>-->
     </div>
 </section>
 
@@ -313,7 +308,7 @@
 
 <!------------------- PROMOS 
 --------------------------------------------------------->
-<!--<section class="mbr-section mbr-section__container article" id="header3-9" style="background-color: rgb(255, 255, 255); padding-top: 20px; padding-bottom: 20px;">
+<section class="mbr-section mbr-section__container article" id="header3-9" style="background-color: rgb(255, 255, 255); padding-top: 20px; padding-bottom: 20px;">
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
@@ -325,17 +320,23 @@
    
 <section class="mbr-section mbr-section__container article" id="gallery2-d" style="background-color: rgb(255, 255, 255); padding-top: 6rem; padding-bottom: 6rem;">
     <div class="container">
-        <div class="row">               
-            <div class="col-xs-12 col-md-6">
-                <img alt="" class="img-responsive img-thumbnail" src="assets/images/coworkers-small.jpg">
+        <div class="row">  
+            <div class="col-xs-12 col-md-6 text-xs-center">
+                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FHAMBRIZZA%2Fposts%2F1826575110893423&width=500" width="500" height="517" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
             </div>
-            
-            <div class="col-xs-12 col-md-6">
-                <img alt="" class="img-responsive img-thumbnail" src="assets/images/code-man-small.jpg">
+            <div class="col-xs-12 col-md-6 text-xs-center">
+                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FHAMBRIZZA%2Fposts%2F1822516144632653&width=500" width="500" height="498" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
             </div>
+            <div class="clearfix visible-xs-block"></div>
+            <div class="col-xs-12 col-md-6 text-xs-center">
+                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FHAMBRIZZA%2Fposts%2F1815248195359448&width=500" width="500" height="517" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+            </div>    
+            <div class="col-xs-12 col-md-6 text-xs-center">
+                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FHAMBRIZZA%2Fposts%2F1814881112062823&width=500" width="500" height="498" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+            </div>           
         </div>
     </div>
-</section>-->
+</section>
    
 <!------------------- ABOUT 
 --------------------------------------------------------->
@@ -518,7 +519,7 @@
 
 <!------------------- FOOTER 
 --------------------------------------------------------->
-<section class="mbr-section mbr-section-md-padding" id="social-buttons4-6" style="background-color: #E7452E; padding-top: 40px; padding-bottom: 40px;">
+<section class="mbr-section mbr-section-md-padding" id="social-buttons4-6" style="background-color: #E7452E; padding-top: 40px; padding-bottom: 0px;">
     
     <div class="container">
         <div class="row">
@@ -547,7 +548,7 @@
     </div>
 </section>
 
-<footer class="mbr-small-footer mbr-section mbr-section-nopadding" id="footer1-i" style="background-color: #E7452E; padding-top: 0px; padding-bottom: 40px;">
+<footer class="mbr-small-footer mbr-section mbr-section-nopadding" id="footer1-i" style="background-color: #E7452E; padding-top: 0px; padding-bottom: 0px;">
     
     <div class="container">
        <div class="text-xs-center">
@@ -560,7 +561,9 @@
                 <a href="#" style="color:#FEE441; text-decoration:underline;">Aviso de Privacidad</a>
             </nav><br>
 -->
-            <p style="color:#FEE441;">© HAMBRIZZA | Todos los derechos reservados 2017.</p>
+            <p style="color:#FEE441;">© HAMBRIZZA | Todos los derechos reservados 2017.</p> <br>
+            
+            <img alt="" class="img-responsive" src="assets/images/hambrizza-footer.png" style="width: 20%;">
        </div>
     </div>
 </footer>

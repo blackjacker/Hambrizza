@@ -65,7 +65,99 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
 </head>
+
+
+
 <body>
+<!------------------- ORDER MODAL WINDOW
+--------------------------------------------------------->
+<div id="order-modal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+        
+        <div class="modal-content">
+               
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title mbr-section-title">Conrfima tu Orden</h4>
+        </div>
+        
+        <!-- TABLE -->
+        <div class="modal-body">
+            <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Sabor</th>
+                    <th>Tamaño</th>
+                    <th>Cantidad</th>
+                    <th>Precio</th>
+                  </tr>
+                </thead>
+                
+                <tbody>
+                  <tr>
+                    <td>Hawaianna</td>
+                    <td>Individual</td>
+                    <td>0</td>
+                    <td>$0.00</td>
+                  </tr>
+                  <tr>
+                    <td>Hawaianna</td>
+                    <td>Mediana</td>
+                    <td>0</td>
+                    <td>$0.00</td>
+                  </tr>
+                  <tr>
+                    <td>Pepperoni</td>
+                    <td>Individual</td>
+                    <td>0</td>
+                    <td>$0.00</td>
+                  </tr>
+                  <tr>
+                      <td>Pepperoni</td>
+                      <td>Mediana</td>
+                      <td>0</td>
+                      <td>$0.00</td>
+                  </tr>
+                  <tr>
+                      <td>4 Estaciones</td>
+                      <td>Individual</td>
+                      <td>0</td>
+                      <td>$0.00</td>
+                  </tr>
+                  <tr>
+                      <td>4 Estaciones</td>
+                      <td>Mediana</td>
+                      <td>0</td>
+                      <td>$0.00</td>
+                  </tr>
+                  <tr>
+                      <td>A la Carta</td>
+                      <td>Individual</td>
+                      <td>0</td>
+                      <td>$0.00</td>
+                  </tr>
+                  <tr>
+                      <td>A la Carta</td>
+                      <td>Mediana</td>
+                      <td>0</td>
+                      <td>$0.00</td>
+                  </tr>
+                </tbody>
+            </table>
+            
+            <!-- TOTAL -->
+            <small class="mbr-section-subtitle" style="font-family:Open Sans; color: #E7452E; text-align:center; font-size:200%;">Total $0.00</small>
+        </div>
+                
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-primary">Ordenar</button>
+        </div>
+            
+        </div>
+    </div>
+</div>
+
 <!------------------- NAV BAR 
 --------------------------------------------------------->
 <section id="menu-0">
@@ -156,11 +248,11 @@
 <section class="mbr-cards mbr-section mbr-section-nopadding" id="features3-8" style="background-color: rgb(255, 255, 255);">
   
    <div class="row" id="compra-final">
-        <div class="col-xs-6 text-xs-center">
+        <!--<div class="col-xs-6 text-xs-center">
             <h5 id="final-price">Compra total: $180.00</h5><span class="icon-basket" style="color:#EB6A60; font-weight:bold; font-size:120%;"></span>
-        </div>
-        <div class="col-xs-6 text-xs-center">
-            <button type="submit" class="btn btn-primary" style="margin-top:50px;">ORDENAR</button>
+        </div>-->
+        <div class="col-xs-12 text-xs-center">
+            <button type="button" class="btn btn-primary" style="margin:30px 0px;" data-toggle="modal" data-target="#order-modal">ORDENAR</button>
         </div>
     </div>
    
@@ -183,13 +275,13 @@
                     
                     <!-- Individual -->   
                     <div class="form-group order-form">
-                        <label class="form-control-label" for="hawaiana-individual">Tamaño: Individual $20</label>
+                        <label class="form-control-label" for="hawaiana-individual">Tamaño: Individual $25</label>
                         <input type="number" class="form-control" name="hawaiana-individual" required="" data-form-field="hawaiana-individual" id="hawaiana-individual" placeholder="0" min="0">
                     </div>
                     
                     <!-- Mediana -->   
                     <div class="form-group order-form">
-                        <label class="form-control-label" for="hawaiana-mediana">Tamaño: Mediana $25</label>
+                        <label class="form-control-label" for="hawaiana-mediana">Tamaño: Mediana $45</label>
                         <input type="number" class="form-control" name="hawaiana-mediana" required="" data-form-field="hawaiana-mediana" id="hawaiana-mediana" placeholder="0" min="0">
                     </div>
                     
@@ -213,13 +305,13 @@
                         
                         <!-- Individual -->   
                         <div class="form-group order-form">
-                            <label class="form-control-label" for="pepperoni-individual">Tamaño: Individual</label>
+                            <label class="form-control-label" for="pepperoni-individual">Tamaño: Individual $25</label>
                             <input type="number" class="form-control" name="pepperoni-individual" required="" data-form-field="pepperoni-individual" id="pepperoni-individual" placeholder="0" min="0">
                         </div>
                     
                         <!-- Mediana -->   
                         <div class="form-group order-form">
-                            <label class="form-control-label" for="pepperoni-mediana">Tamaño: Mediana</label>
+                            <label class="form-control-label" for="pepperoni-mediana">Tamaño: Mediana $45</label>
                             <input type="number" class="form-control" name="pepperoni-mediana" required="" data-form-field="pepperoni-mediana" id="pepperoni-mediana" placeholder="0" min="0">
                         </div>
                     </div>
@@ -243,13 +335,13 @@
                         
                         <!-- Individual -->   
                         <div class="form-group order-form">
-                            <label class="form-control-label" for="estaciones-individual">Tamaño: Individual</label>
+                            <label class="form-control-label" for="estaciones-individual">Tamaño: Individual $25</label>
                             <input type="number" class="form-control" name="estaciones-individual" required="" data-form-field="estaciones-individual" id="estaciones-individual" placeholder="0" min="0">
                         </div>
                     
                         <!-- Mediana -->   
                         <div class="form-group order-form">
-                            <label class="form-control-label" for="estaciones-mediana">Tamaño: Mediana</label>
+                            <label class="form-control-label" for="estaciones-mediana">Tamaño: Mediana $45</label>
                             <input type="number" class="form-control" name="estaciones-mediana" required="" data-form-field="estaciones-mediana" id="estaciones-mediana" placeholder="0" min="0">
                         </div>
                     </div>
@@ -281,18 +373,19 @@
                                 <small>Pimiento</small><input type="checkbox" name="carta-pepperoni" value="pepperoni" data-form-field="carta-pepperoni" id="carta-pepperoni"><br>
                                 <small>Champiñones</small><input type="checkbox" name="carta-pepperoni" value="pepperoni" data-form-field="carta-pepperoni" id="carta-pepperoni"><br>
                                 <small>Cebolla</small><input type="checkbox" name="carta-pepperoni" value="pepperoni" data-form-field="carta-pepperoni" id="carta-pepperoni">
+                                <small>Aceituna Negra</small><input type="checkbox" name="carta-aceituna" value="aceituna" data-form-field="carta-aceituna" id="carta-aceituna">
                             </div>
                         </div>
                         
                         <!-- Individual -->   
                         <div class="form-group order-form">
-                            <label class="form-control-label" for="carta-individual">Tamaño: Individual</label>
+                            <label class="form-control-label" for="carta-individual">Tamaño: Individual $25</label>
                             <input type="number" class="form-control" name="carta-individual" required="" data-form-field="carta-individual" id="carta-individual" placeholder="0" min="0">
                         </div>
                     
                         <!-- Mediana -->   
                         <div class="form-group order-form">
-                            <label class="form-control-label" for="carta-mediana">Tamaño: Mediana</label>
+                            <label class="form-control-label" for="carta-mediana">Tamaño: Mediana $45</label>
                             <input type="number" class="form-control" name="carta-mediana" required="" data-form-field="carta-mediana" id="carta-mediana" placeholder="0" min="0">
                         </div>
                     </div>
@@ -322,17 +415,17 @@
     <div class="container">
         <div class="row">  
             <div class="col-xs-12 col-md-6 text-xs-center">
-                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FHAMBRIZZA%2Fposts%2F1826575110893423&width=500" width="500" height="517" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FHAMBRIZZA%2Fposts%2F1826575110893423&width=500" width="100%" height="517" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
             </div>
             <div class="col-xs-12 col-md-6 text-xs-center">
-                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FHAMBRIZZA%2Fposts%2F1822516144632653&width=500" width="500" height="498" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FHAMBRIZZA%2Fposts%2F1822516144632653&width=500" width="100%" height="498" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
             </div>
             <div class="clearfix visible-xs-block"></div>
             <div class="col-xs-12 col-md-6 text-xs-center">
-                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FHAMBRIZZA%2Fposts%2F1815248195359448&width=500" width="500" height="517" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FHAMBRIZZA%2Fposts%2F1815248195359448&width=500" width="100%" height="517" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
             </div>    
             <div class="col-xs-12 col-md-6 text-xs-center">
-                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FHAMBRIZZA%2Fposts%2F1814881112062823&width=500" width="500" height="498" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FHAMBRIZZA%2Fposts%2F1814881112062823&width=500" width="100%" height="498" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
             </div>           
         </div>
     </div>
